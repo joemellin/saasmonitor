@@ -150,12 +150,26 @@ input {
 
 
 .btn-register {
-	margin-top: 15px;
+	margin-top: 5px;
 	border-radius: 50px;
 	margin-right: 10px;
 	top: 0px;
 	float: right;
 	font-size: 16px;
+	background: #30BAB5;
+}
+
+.btn-join {
+	margin-top: 5px;
+	border-radius: 50px;
+	margin-right: 0px;
+	line-height: 2em;
+	top: 0px;
+	float: center;
+	font-size: 26px;
+	padding: 5px 30px 5px 30px;
+	background:#41DE39;
+	border-color: #41DE39;
 }
 
 .btn-sub {
@@ -176,18 +190,18 @@ input {
 }
 
 .btn-white:hover {
-	background: #2f2f2f;
+	background: #30BAB5;
 	color: white;
 }
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: #B9F43F;
 	padding-top: 10px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -203,8 +217,8 @@ input {
 
 #h h1 {
 	color: white;
-	font-weight: 900;
-	font-size: 70px;
+	font-weight: 700;
+	font-size: 50px;
 	letter-spacing: 5px;
 }
 
@@ -257,7 +271,7 @@ input {
 #curious {
 	background: #3498DB;
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 00px;
 	padding-bottom: 100px;
 	color: white;
 }
@@ -324,10 +338,11 @@ input {
 	color: white;
 }
 
-#f h4 {
-	font-weight: 400;
+ h4 {
+	font-weight: 700;
 	text-align: center;
-	font-size: 24px;
+	font-size: 34px;
+	padding-bottom: 20px;
 }
 
 /* CREDIT */
