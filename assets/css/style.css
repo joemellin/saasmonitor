@@ -56,7 +56,8 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
+.mt {margin-top: 10px;}
+.mtt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
@@ -156,7 +157,7 @@ input {
 	top: 0px;
 	float: right;
 	font-size: 16px;
-	background: #30BAB5;
+	background: #159D98;
 }
 
 .btn-join {
@@ -179,10 +180,10 @@ input {
 /* Overall Buttons*/
 .btn-theme {
 	border-radius: 50px;
+	border: 2px solid #fff;
 
-
-	font-size: 26px;
-	padding: 5px 30px 5px 30px;
+	font-size: 20px;
+	padding: 5px 20px 5px 20px;
 }
 
 .btn-white {
@@ -197,7 +198,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: #B9F43F;
+	background: #24D01B;
 	padding-top: 10px;
 	text-align:center;
 	background-attachment: relative;
